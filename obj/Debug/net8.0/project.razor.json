@@ -19352,6 +19352,11 @@
       "FilePath": "z:\\PrimerProyecto\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "z:\\PrimerProyecto\\Views\\Home\\Juego.cshtml",
+      "TargetPath": "Views\\Home\\Juego.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.3"

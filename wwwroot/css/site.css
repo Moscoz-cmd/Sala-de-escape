@@ -1,6 +1,7 @@
 html {
   font-size: 14px;
   min-height: 100%;
+ 
 }
 
 @media (min-width: 768px) {
@@ -9,10 +10,10 @@ html {
   }
 }
 
-body {
+.sala1 {
   margin: 10px;
   padding: 10px;
- background-image: url('imagenes/HabitacionInicial.png');
+  background-image:url('../imagenes/Habitacion inicial.png');
 }
 
 

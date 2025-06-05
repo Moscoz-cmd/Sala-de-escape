@@ -17,4 +17,20 @@ public class HomeController : Controller
     {
         return View();
     }
+    public IActionResult Sala1()
+    {
+        return View("Juego");
+    }
+
+      public IActionResult Sala2()
+    {
+        return View("Historia");
+    }
+    public IActionResult Sala3()
+    {
+        return View("Integrantes");
+    }
+  
+
+
 }
