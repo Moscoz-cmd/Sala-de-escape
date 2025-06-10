@@ -19,7 +19,7 @@ public class HomeController : Controller
     }
     public IActionResult Sala1()
     {
-        return View("Juego");
+        return View("sala1");
     }
 
       public IActionResult Sala2()

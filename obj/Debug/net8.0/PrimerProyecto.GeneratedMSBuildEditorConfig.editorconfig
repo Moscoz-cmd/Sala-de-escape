@@ -18,12 +18,48 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = Z:\PrimerProyecto
 build_property._RazorSourceGeneratorDebug = 
 
+[Z:/PrimerProyecto/Views/Home/.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/PrimerProyecto/Views/Home/Historia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIaXN0b3JpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [Z:/PrimerProyecto/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/PrimerProyecto/Views/Home/Juego.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxKdWVnby5jc2h0bWw=
+[Z:/PrimerProyecto/Views/Home/preg1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwcmVnMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/PrimerProyecto/Views/Home/preg2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwcmVnMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/PrimerProyecto/Views/Home/preg3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwcmVnMy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/PrimerProyecto/Views/Home/preg4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwcmVnNC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/PrimerProyecto/Views/Home/sala1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/PrimerProyecto/Views/Home/sala2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/PrimerProyecto/Views/Home/sala3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhMy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/PrimerProyecto/Views/Home/sala4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhNC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [Z:/PrimerProyecto/Views/Shared/_Layout.cshtml]
