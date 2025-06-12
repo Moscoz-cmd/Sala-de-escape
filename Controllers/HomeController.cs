@@ -13,20 +13,24 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
+    public IActionResult Index(int numeroSala, string claveIngresada, Sala salaBuscada)
     {
+        Juego juego = new Juego();
+        HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego));
+        
+        
         return View();
-    }
+    } 
     public IActionResult Sala1()
     {
         return View("sala1");
     }
 
-      public IActionResult Sala2()
+      public IActionResult Historia()
     {
         return View("Historia");
     }
-    public IActionResult Sala3()
+    public IActionResult Integrantes()
     {
         return View("Integrantes");
     }

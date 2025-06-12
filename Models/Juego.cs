@@ -1,10 +1,10 @@
 public class Juego
 {
-    public List<Sala> Salas { get; set; }
+    public List<Sala> LSalas { get; set; }
 
     public Sala ObtenerSalaPorNumero(int numero)
     {
-        foreach (Sala sala in Salas)
+        foreach (Sala sala in LSalas)
         {
             if (sala.Numero == numero)
             {
@@ -13,14 +13,16 @@ public class Juego
         }
         return null;
     }
+    
 
-    public bool ValidarClave(int numeroSala, string claveIngresada)
+    public bool ValidarClave(Sala sala, string claveIngresada)
     {
-        Sala salaBuscada = ObtenerSalaPorNumero(numeroSala);
-        if (salaBuscada != null && salaBuscada.ClaveCorrecta != null)
-        { 
-            return salaBuscada.ClaveCorrecta.ToLower() == claveIngresada.ToLower();
+        if(sala.ClaveCorrecta==claveIngresada)
+        {
+            return true;
+        }else
+        {
+            return false;
         }
-        return false;
     }   
 }
