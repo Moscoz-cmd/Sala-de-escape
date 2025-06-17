@@ -13,12 +13,11 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index(int numeroSala, string claveIngresada, Sala salaBuscada)
+    public IActionResult Index()
     {
         Juego juego = new Juego();
+
         HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego));
-        
-        
         return View();
     } 
     public IActionResult Sala1()
@@ -34,7 +33,35 @@ public class HomeController : Controller
     {
         return View("Integrantes");
     }
-  
+    public IActionResult preg1(string claveIngresada ,int numeroSala, Sala salaBuscada)
+    {
+        
+        return View("preg1");
+    }
+    public IActionResult Sala2()
+    {
+        return View("Sala2");
+    }
+    public IActionResult preg2()
+    {
+        return View("preg2");
+    }
+    public IActionResult sala3()
+    {
+        return View("sala3");
+    }
+    public IActionResult preg3()
+    {
+        return View("preg3");
+    }
+    public IActionResult sala4()
+    {
+        return View("sala4");
+    }
+    public IActionResult preg4()
+    {
+        return View("preg4");
+    }
 
 
 }

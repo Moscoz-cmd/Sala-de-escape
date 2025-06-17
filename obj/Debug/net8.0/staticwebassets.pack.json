@@ -25,6 +25,14 @@
       "PackagePath": "staticwebassets\\imagenes\\Habitacion inicial.png"
     },
     {
+      "Id": "Z:\\PrimerProyecto\\wwwroot\\imagenes\\IVO.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\IVO.jpg"
+    },
+    {
+      "Id": "Z:\\PrimerProyecto\\wwwroot\\imagenes\\JUANMA.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\JUANMA.jpg"
+    },
+    {
       "Id": "Z:\\PrimerProyecto\\wwwroot\\imagenes\\Thumbs.db",
       "PackagePath": "staticwebassets\\imagenes\\Thumbs.db"
     },
