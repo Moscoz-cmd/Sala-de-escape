@@ -16,14 +16,11 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         Juego juego = new Juego();
-
+       juego.LSalas = juego.InicializarSalas();
         HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego));
         return View();
     } 
-    public IActionResult Sala1()
-    {
-        return View("sala1");
-    }
+    
 
       public IActionResult Historia()
     {
@@ -33,9 +30,19 @@ public class HomeController : Controller
     {
         return View("Integrantes");
     }
-    public IActionResult preg1(string claveIngresada ,int numeroSala, Sala salaBuscada)
+    public IActionResult Sala1()
     {
         
+        
+        return View("sala1");
+    }
+    public IActionResult preg1(string claveIngresada)
+    {
+        string juegoString =  HttpContext.Session.GetString("juego");
+        Juego juego = Objeto.StringToObject<Juego>(juegoString);
+       Sala salaActual=juego.LSalas[1];
+        bool TF = salaActual.ValidarClave(claveIngresada);
+        ViewBag.TF = TF;
         return View("preg1");
     }
     public IActionResult Sala2()

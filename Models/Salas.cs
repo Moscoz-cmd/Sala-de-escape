@@ -11,7 +11,7 @@ public string definirPista()
     switch(Numero)
     {
         case 1:
-        return "";
+        return "Parecido a la bacteria";
         break;
         case 2:
         return "";
@@ -26,5 +26,15 @@ public string definirPista()
         break;
     }
 }
+public bool ValidarClave(string claveIngresada)
+    {
+        if(ClaveCorrecta==claveIngresada)
+        {
+            return true;
+        }else
+        {
+            return false;
+        }
+    }   
 
 }
