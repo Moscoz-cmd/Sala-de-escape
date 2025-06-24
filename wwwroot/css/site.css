@@ -1,7 +1,8 @@
 html {
   font-size: 14px;
   min-height: 100%;
-  color: white;
+  color: white; 
+ 
 }
 
 @media (min-width: 768px) {
@@ -13,12 +14,17 @@ html {
 .sala1 {
   margin: 10px;
   padding: 10px;
-  background-image:url('../imagenes/Habitacion\ inicial.png');
+ background-image:url('../imagenes/Habitacion\ inicial.png');
   
 }
 .sala1 h2, p{
   color: white
 }
+.sala2
+{
+  background-image: url('../imagenes/Bosque.png');
+}
+
 .historia div p {
   font-size: 40px;
   color: black;

@@ -49,13 +49,19 @@ public class HomeController : Controller
     bool TF = salaActual.ValidarClave(claveIngresada);
     if (TF==true)
     {
+        HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego));
         return View("Sala2");
     }
+    HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego));
     return View("preg1");
 }
 
     public IActionResult Sala2()
     {
+        string juegoString = HttpContext.Session.GetString("juego");
+        Juego? juego = Objeto.StringToObject<Juego>(juegoString);
+
+        Sala salaActual = juego.LSalas[1];
         return View("Sala2");
     }
     public IActionResult preg2()
