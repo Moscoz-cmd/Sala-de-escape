@@ -23,7 +23,7 @@ public string definirPista()
         return "";
         break;
         default: return ""; 
-        break;
+        
     }
 }
 public bool ValidarClave(string claveIngresada)
