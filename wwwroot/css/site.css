@@ -11,6 +11,16 @@ html {
   }
 }
 
+.preg1{
+  margin: 10px;
+  padding: 10px;
+  background-image: url('../imagenes/Habitacion inicial.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; 
+  width: 100vw;
+}
 .sala1{
   margin: 10px;
   padding: 10px;
@@ -21,8 +31,55 @@ html {
   height: 100vh; 
   width: 100vw;
 }
+.sala1 div{
+  margin-top: 20%;
+  float: left;
+  margin-left: 30%;
+  box-shadow: 1px 2px 2px 1px black;
+  text-align: center;
+}
 .sala1 h2, p{
   color: white
+}
+.sala1 button{
+  background-color: rgba(0, 0, 255, 0);
+  
+  width: 10%;
+  height: 20%;
+  min-height: 50px;
+}
+.sala1 button a{
+  color:black;
+}
+.sala1 button:hover{
+  box-shadow: 4px 8px 8px 4px blue;
+}
+.index{
+  background-image: url('../imagenes/cordyceps1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.index div{
+  margin-top: 7%;
+  float: left;
+  margin-left: 30%;
+  text-align: center;
+  
+}
+.index h1, h2{
+  font-size: 40px;
+}
+.index a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin: 1%;
+  font-size: 30px;
+  
+}
+.index a:hover{
+  box-shadow: 1px 2px 2px 1px black;
+  color: rgb(221, 55, 55);
 }
 .sala2
 {
@@ -56,17 +113,102 @@ html {
   background-repeat: no-repeat;
   background-position: center;
 }
-.sala4 div{
+.preg1 div{
+  margin-top: 20%;
+  float: left;
+  margin-left: 15%;
+  box-shadow: 1px 2px 2px 1px black;
+  text-align: center;
+}
+.sala2 div{
   margin-top: 20%;
   float: left;
   margin-left: 30%;
   box-shadow: 1px 2px 2px 1px black;
+  text-align: center;
+}
+.sala3 div{
+  margin-top: 20%;
+  float: left;
+  margin-left: 15%;
+  box-shadow: 1px 2px 2px 1px black;
+  text-align: center;
+}
+.sala35 div{
+  margin-top: 20%;
+  float: left;
+  margin-left: 10%;
+  box-shadow: 1px 2px 2px 1px black;
+  text-align: center;
+}
+.sala4 div{
+  margin-top: 20%;
+  float: left;
+  margin-left: 19%;
+  box-shadow: 1px 2px 2px 1px black;
+  text-align: center;
+}
+.historia{
+  background-color: beige;
 }
 .historia div p {
   font-size: 40px;
   color: black;
+  text-align: center;
 }
+.historia div a{
+  text-decoration: none;
+  font-size: 40px;
+  color: black;
+  margin-left: 50%;
+}
+.historia div a:hover{
+  box-shadow: 1px 2px 2px 1px black;
+  color: red;
+}
+.salaF{
+  background-image: url('../imagenes/fin.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin-top: 20%;
+  box-shadow: 2px 4px 4px 2px black;
+  width: 30%;
+  margin-left: 35%;
+}
+.salaF a{
+ text-decoration: none;
+ color: black;
+ font-size: 40px;
+  
+}
+.salaF a:hover{
+  box-shadow: 1px 2px 2px 1px black;
+  color: rgb(221, 55, 55);
+}
+.integrantes img{
+  width: 40%;
+  height: 40%;
+  max-height: 500px;
+  max-width: 5000px;
+  border-radius: 400px;
 
+}
+.integrantes h1{
+  color: black;
+}
+.integrantes a{
+  
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+   
+ }
+ .integrantes a:hover{
+   box-shadow: 1px 2px 2px 1px black;
+   color: rgb(221, 55, 55);
+ }
 footer {
   margin-top: 10px;
   padding: 10px;

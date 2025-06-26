@@ -37,6 +37,10 @@
       "PackagePath": "staticwebassets\\imagenes\\Thumbs.db"
     },
     {
+      "Id": "Z:\\PrimerProyecto\\wwwroot\\imagenes\\cordyceps1.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\cordyceps1.jpg"
+    },
+    {
       "Id": "Z:\\PrimerProyecto\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

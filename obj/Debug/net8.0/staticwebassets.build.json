@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EHFWSAaRbdZfqFYp8szNH4v8k3UDUwVcLL0Y09MXHl8=",
+  "Hash": "5rD11eX5EpqLstYJa4mlvZ/5OP0nyBDdCxsGK+uiduU=",
   "Source": "PrimerProyecto",
   "BasePath": "_content/PrimerProyecto",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\Cabaña.png"
+    },
+    {
+      "Identity": "Z:\\PrimerProyecto\\wwwroot\\imagenes\\cordyceps1.jpg",
+      "SourceId": "PrimerProyecto",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\PrimerProyecto\\wwwroot\\",
+      "BasePath": "_content/PrimerProyecto",
+      "RelativePath": "imagenes/cordyceps1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\cordyceps1.jpg"
     },
     {
       "Identity": "Z:\\PrimerProyecto\\wwwroot\\imagenes\\Habitacion inicial.png",

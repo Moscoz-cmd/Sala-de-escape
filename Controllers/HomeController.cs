@@ -99,9 +99,19 @@ public class HomeController : Controller
         }
         return View("Sala3");
     }
-    public IActionResult sala4()
-    {
+    public IActionResult sala4(string claveIngresada)
+    {   
+        string juegoString = HttpContext.Session.GetString("juego");
+        Juego? juego = Objeto.StringToObject<Juego>(juegoString);
+        Sala salaActual = juego.LSalas[4];
+        bool TF = salaActual.ValidarClave(claveIngresada);
+        if (TF==true)
+        {
+        HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego));
+        return View("salaF");
+        }
         return View("sala4");
+
     }
     public IActionResult preg4()
     {

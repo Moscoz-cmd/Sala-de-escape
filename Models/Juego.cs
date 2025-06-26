@@ -31,7 +31,7 @@ public class Juego
     {
         Numero = 4,
         Pista = "",
-        ClaveCorrecta = ""
+        ClaveCorrecta = "27"
     });
     salas.Add(new Sala
     {
