@@ -22,7 +22,7 @@ public class HomeController : Controller
     } 
     
 
-      public IActionResult Historia()
+    public IActionResult Historia()
     {
         return View("Historia");
     }
@@ -32,8 +32,6 @@ public class HomeController : Controller
     }
     public IActionResult Sala1()
     {
-        
-        
         return View("sala1");
     }
     public IActionResult preg1()
@@ -42,39 +40,64 @@ public class HomeController : Controller
     }
     [HttpPost]
     public IActionResult preg1(string claveIngresada)
-{
-    string juegoString = HttpContext.Session.GetString("juego");
-    Juego? juego = Objeto.StringToObject<Juego>(juegoString);
-    Sala salaActual = juego.LSalas[0];
-    bool TF = salaActual.ValidarClave(claveIngresada);
-    if (TF==true)
     {
-        HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego));
-        return View("Sala2");
+        string juegoString = HttpContext.Session.GetString("juego");
+        Juego? juego = Objeto.StringToObject<Juego>(juegoString);
+        Sala salaActual = juego.LSalas[0];
+        bool TF = salaActual.ValidarClave(claveIngresada);
+        if (TF==true)
+        {
+            HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego));
+            return View("Sala2");
+        }
+        
+        return View("preg1");
     }
-    HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego));
-    return View("preg1");
-}
-
-    public IActionResult Sala2()
+    [HttpPost]
+    public IActionResult sala2(string claveIngresada)
     {
         string juegoString = HttpContext.Session.GetString("juego");
         Juego? juego = Objeto.StringToObject<Juego>(juegoString);
 
         Sala salaActual = juego.LSalas[1];
-        return View("Sala2");
-    }
-    public IActionResult preg2()
+        bool TF = salaActual.ValidarClave(claveIngresada);
+    if (TF==true)
     {
-        return View("preg2");
+        HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego));
+        return View("Sala3");
     }
-    public IActionResult sala3()
+    
+    return View("Sala2");
+        
+    }
+    
+    [HttpPost]
+    public IActionResult sala3(string claveIngresada)
     {
+        string juegoString = HttpContext.Session.GetString("juego");
+        Juego? juego = Objeto.StringToObject<Juego>(juegoString);
+        Sala salaActual = juego.LSalas[2];
+        bool TF = salaActual.ValidarClave(claveIngresada);
+        if (TF==true)
+        {
+        HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego));
+        return View("Sala35");
+        }
+       
         return View("sala3");
     }
-    public IActionResult preg3()
+    public IActionResult Sala35(string claveIngresada)
     {
-        return View("preg3");
+        string juegoString = HttpContext.Session.GetString("juego");
+        Juego? juego = Objeto.StringToObject<Juego>(juegoString);
+        Sala salaActual = juego.LSalas[3];
+        bool TF = salaActual.ValidarClave(claveIngresada);
+        if (TF==true)
+        {
+        HttpContext.Session.SetString("juego", Objeto.ObjectToString(juego));
+        return View("sala4");
+        }
+        return View("Sala3");
     }
     public IActionResult sala4()
     {
@@ -84,6 +107,5 @@ public class HomeController : Controller
     {
         return View("preg4");
     }
-
-
 }
+

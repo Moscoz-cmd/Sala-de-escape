@@ -24,7 +24,7 @@ public class Juego
     {
         Numero = 3,
         Pista = "",
-        ClaveCorrecta = ""
+        ClaveCorrecta = "15"
     });
 
     salas.Add(new Sala
@@ -32,6 +32,12 @@ public class Juego
         Numero = 4,
         Pista = "",
         ClaveCorrecta = ""
+    });
+    salas.Add(new Sala
+    {
+        Numero = 5,
+        Pista = "",
+        ClaveCorrecta = "C10H13N5O3"
     });
 
     return salas;

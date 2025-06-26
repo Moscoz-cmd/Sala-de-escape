@@ -38,14 +38,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwcmVnMS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/PrimerProyecto/Views/Home/preg2.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwcmVnMi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/PrimerProyecto/Views/Home/preg3.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwcmVnMy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [Z:/PrimerProyecto/Views/Home/preg4.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwcmVnNC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -60,6 +52,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [Z:/PrimerProyecto/Views/Home/sala3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhMy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/PrimerProyecto/Views/Home/sala35.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhMzUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [Z:/PrimerProyecto/Views/Home/sala4.cshtml]

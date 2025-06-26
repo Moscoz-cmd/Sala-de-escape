@@ -11,11 +11,15 @@ html {
   }
 }
 
-.sala1 {
+.sala1{
   margin: 10px;
   padding: 10px;
- background-image:url('../imagenes/Habitacion\ inicial.png');
-  
+  background-image: url('../imagenes/Habitacion inicial.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; 
+  width: 100vw;
 }
 .sala1 h2, p{
   color: white
@@ -23,8 +27,41 @@ html {
 .sala2
 {
   background-image: url('../imagenes/Bosque.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; 
+  width: 100vw;
 }
-
+.sala3
+{
+  background-image: url('../imagenes/Avenida.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; 
+  width: 100vw;
+}
+.sala35{
+  background-image: url('../imagenes/Avenida.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; 
+  width: 100vw;
+}
+.sala4{
+  background-image: url('../imagenes/Cabaña.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sala4 div{
+  margin-top: 20%;
+  float: left;
+  margin-left: 30%;
+  box-shadow: 1px 2px 2px 1px black;
+}
 .historia div p {
   font-size: 40px;
   color: black;
