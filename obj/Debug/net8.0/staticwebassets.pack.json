@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\imagenes\\cordyceps1.jpg"
     },
     {
+      "Id": "Z:\\PrimerProyecto\\wwwroot\\imagenes\\fin.png",
+      "PackagePath": "staticwebassets\\imagenes\\fin.png"
+    },
+    {
       "Id": "Z:\\PrimerProyecto\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
